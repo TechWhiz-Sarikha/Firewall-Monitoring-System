@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Group ID: Defines the group or organization -->
+    <groupId>com.mycompany</groupId>
+    
+    <!-- Artifact ID: Unique identifier for the project -->
+    <artifactId>YourProjectName</artifactId>  <!-- Change to your project name -->
+    
+    <!-- Version: Defines the version of the project -->
+    <version>1.0-SNAPSHOT</version>
+    
+    <!-- Packaging type: Define the package type (jar, war, etc.) -->
+    <packaging>jar</packaging>
+    
+    <properties>
+        <!-- Set project encoding and Java version -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>  <!-- Specify Java version -->
+        
+        <!-- Specify the main class to be executed -->
+        <exec.mainClass>com.mycompany.project.MainClass</exec.mainClass>  <!-- Change to your main class -->
+    </properties>
+    
+    <dependencies>
+        <!-- Add your dependencies here -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>  <!-- Specify MySQL connector version -->
+        </dependency>
+
+        <!-- Add additional dependencies as needed -->
+    </dependencies>
+   
+</project>
